@@ -21,9 +21,9 @@ Rather than presenting an unrealistic "black-box" model, this repository empiric
 * **Strategy:** Scaled input volume using index data (`SPY`) and simplified architecture (8 filters, Dropout = 0.5).
 * **Observation:** Training accuracy (~54.6%) converged tightly with Test accuracy (~53.5%), stabilizing evaluation loss at ~0.69.
 
-## Key Theoretical Insights
+## Key theoretical concepts
 1. **Local feature scanning:** Using a `kernel_size=3` acts as a temporal scanner, isolating 3-day micro-regimes (momentum, exhaustion, and bounces) across historical rolling windows.
 2. **Efficient market hypothesis (EMH):** Predicting price direction solely from isolated 10-day historical returns hits an informational ceiling near ~53-54% accuracy, consistent with low signal-to-noise ratios in liquid asset returns.
 
-## Future Enhancements
+## Future work
 * Incorporating volume features and technical indicators (RSI, MACD) to expand input dimensionality beyond univariate return series.
