@@ -8,7 +8,7 @@ Rather than presenting an unrealistic "black-box" model, this repository empiric
 ## Repository structure
 * **README.md** - Project overview and key findings.
 * **requirements.txt** - Python dependencies and environment specifications.
-* **notebooks/cnn_trends.ipynb** - Jupyter Notebook containing data preprocessing, model architecture, training loops, and evaluations.
+* **cnn_trends.ipynb** - Jupyter Notebook containing data preprocessing, model architecture, training loops, and evaluations.
 
 ## Research & Iteration Pipeline
 
